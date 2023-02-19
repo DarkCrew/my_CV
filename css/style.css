@@ -62,8 +62,9 @@ body.lock {
 
 .header-nav ul {
   display: flex;
+  justify-content: flex-end;
+  gap: 10%;
   color: #ffffff;
-  justify-content: space-between;
 }
 
 .header-nav ul li a {
