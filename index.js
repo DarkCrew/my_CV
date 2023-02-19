@@ -5,6 +5,12 @@ const welcomeMenuItems = document.querySelectorAll('.header-nav ul li');
 
 burgerMenu.addEventListener('click', changeStateWelcomeMenu);
 
+window.onload = function () {
+  const preloader = document.querySelector('.preloader');
+  preloader.style.display = 'none';
+  document.documentElement.style.overflow = 'visible';
+};
+
 function changeStateWelcomeMenu() {
   burgerMenuLines.classList.toggle('active');
   navigationMenu.classList.toggle('mobile');
