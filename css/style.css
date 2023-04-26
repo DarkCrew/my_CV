@@ -205,6 +205,34 @@ body.lock {
   font-family: 'Roboto-Light';
 }
 
+.download {
+  margin-top: 60px;
+  display: flex;
+}
+
+.download-cv {
+  height: 60px;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  color: #ffffff;
+  font-family: 'Roboto-Bold';
+  background: #af354c;
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+
+.download-cv:hover {
+  background-color: #761f2f;
+}
+
+.download-image {
+  height: 100%;
+  filter: invert(97%) sepia(100%) saturate(0%) hue-rotate(81deg) brightness(105%) contrast(105%);
+}
+
 /*.....WELCOME-START.....*/
 
 .welcome {
